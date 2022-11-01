@@ -17,8 +17,8 @@ $ docker container run -d --rm \
       --name mongodb \
       --network ms21-05-net \
       -v data:/data/db \
-      -e MONGO_INITDB_ROOT_USERNAME=abbie \
-      -e MONGO_INITDB_ROOT_PASSWORD=admin654321 \
+      -e MONGO_INITDB_ROOT_USERNAME=<username> \
+      -e MONGO_INITDB_ROOT_PASSWORD=<password> \
       mongo:latest
 ```
 
